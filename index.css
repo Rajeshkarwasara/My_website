@@ -1,0 +1,537 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* color: crimson; */
+}
+
+header {
+    background: #282621;
+    color: white;
+    height: 80px;
+}
+
+.headernaw {
+    display: flex;
+    width: 80%;
+
+    margin: auto;
+    height: inherit;
+    justify-content: space-between;
+
+}
+
+.leftnaw {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.oderlist {
+    display: flex;
+    list-style: none;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.rightnaw {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    width: 40%;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.leftnaw span {
+    font-size: 35px;
+}
+
+.oderlist li {
+    font-size: 21px;
+}
+
+.section1 {
+    background: #282621;
+    height: 640px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.myimg {
+    width: 70%;
+}
+
+.myimg img {
+    width: 55%;
+    position: relative;
+    left: 38px;
+}
+
+.text1 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 40px;
+}
+
+.text2 {
+    font-size: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 60px;
+}
+
+
+
+
+.text3 {
+
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.inrodaction {
+    width: 50%;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Jaat {
+    color: crimson;
+}
+
+
+.section2 {
+    height: 500px;
+}
+
+
+.aboutme {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.hr {
+    width: 5%;
+    color: #dc143c;
+    border-bottom: 3px solid;
+}
+
+.i_am {
+    display: flex;
+    justify-content: center;
+    height: 12px;
+    margin-top: 15px;
+}
+
+.myimg3 {
+    width: 44%;
+    text-align: end;
+    margin-left: -20px;
+}
+
+.sectionfull {
+    display: flex;
+}
+
+.myimg3 img {
+    height: 320px;
+    padding-top: 35px;
+}
+
+.mydeatels {
+    font-size: 25px;
+    font-family: 'Radio Canada', sans-serif;
+    margin-top: 32px;
+}
+
+.mydeatels span {
+    color: crimson;
+}
+
+.mydatelst {
+    width: 400px;
+    padding-left: 25px;
+}
+
+.mydeatels hr {
+    margin-top: 25px;
+}
+
+.mypre {
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.btn a {
+    text-decoration: none;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.btn button {
+    background-color: crimson;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+.allbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+   
+  
+}
+
+
+.box1 {
+    background: #232329;
+    color: white;
+    width: 319px;
+    height: 227px;
+    border-radius: 12px;
+    transition: 0.4s linear;
+    margin: 9px;
+}
+
+.icn {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 40px;
+    color: crimson;
+}
+
+.boxtext {
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 21px;
+    margin-top: 16px;
+    color: white;
+}
+
+.boxpere {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    width: 83%;
+    padding-left: 22px;
+    margin-top: 16px;
+    color: white;
+}
+
+.box1:hover {
+    scale: 1.1;
+    background: crimson;
+    color: white;
+}
+
+.icn:hover {
+    color: white;
+}
+
+.skill1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.rank {
+    background: black;
+    height: 15px;
+    width: 40%;
+    text-align: center;
+    color: crimson;
+}
+
+.paresants {
+    text-align: center;
+    color: crimson;
+}
+
+
+.paresant {
+    height: inherit;
+    background: crimson;
+    width: 70%;
+}
+
+.skill {
+    margin-top: 35px;
+}
+
+.rank_name {
+    width: 5%;
+}
+
+.css {
+    height: inherit;
+    background: crimson;
+    width: 50%;
+}
+
+.java {
+    height: inherit;
+    background: crimson;
+    width: 60%;
+}
+
+.cplas {
+    height: inherit;
+    background: crimson;
+    width: 80%;
+}
+
+.Python {
+    height: inherit;
+    background: crimson;
+    width: 40%;
+}
+
+.PHP {
+    height: inherit;
+    background: crimson;
+    width: 75%;
+}
+
+.naresh img {
+    width: 25%;
+    border-radius: 40px;
+    border: 4px solid crimson;
+}
+
+.box2 {
+    background: #232329;
+    color: white;
+    width: 319px;
+    height: 290px;
+    border-radius: 12px;
+    transition: 0.4s linear;
+    margin: 9px;
+}
+
+.box2:hover {
+    scale: 1.1;
+    background: crimson;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.box2pere {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    width: 83%;
+    padding-left: 22px;
+
+    color: white;
+}
+
+.naresh {
+    margin-top: 18px;
+}
+
+.dp_rajesh {
+    margin-top: 18px;
+}
+
+.dp_rajesh img {
+    width: 25%;
+    border-radius: 100px;
+    border: 4px solid crimson;
+    height: 71px;
+}
+
+.rahul {
+    margin-top: 18px;
+}
+
+.rahul img {
+    width: 25%;
+    border-radius: 100px;
+    border: 4px solid crimson;
+    height: 71px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 401px;
+  }
+
+.name input {
+    width: 362px;
+    padding: 14px;
+    border-bottom: 3px solid #f3b058;
+}
+
+.message {
+    width: 28%;
+    text-align: end;
+    margin-top: 30px;
+}
+
+.message button {
+    padding: 8px;
+    font-size: 18px;
+    background: #dc143c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.message a {
+    text-decoration: none;
+    color: white;
+}
+
+.all_Services {
+    background: black;
+    color: #d9cece;
+    display: flex;
+    justify-content: space-around;
+    line-height: 26px;
+    padding-top: 20px;
+    height: 200px;
+}
+
+.manubaar {
+    display: none;
+}
+
+@media(max-width:1100px) {
+    .rightnaw {
+        width: 50%;
+    }
+
+}
+
+@media(max-width:1260px) {
+    .inrodaction {
+        width: 100%;
+    }
+}
+
+/* @media(max-width:970px){
+    .inrodaction{width: 100%%;}
+  } */
+@media(max-width:900px) {
+    .oderlist {
+        display: none;
+    }
+
+    .manubaar {
+        display: block;
+        width: 100%;
+        text-align: end;
+    }
+
+}
+
+@media(max-width:1024px) {
+
+    .myimg img {
+        width: 70%;
+    }
+
+
+}
+
+@media(max-width:880px) {
+    .myimg img {
+        width: 100%;
+    }
+}
+
+@media(max-width:630px) {
+    .section1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .myimg img {
+        width: 70%;
+        text-align: center;
+    }
+
+    .inrodaction {
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media(max-width:750px) {
+    /* .mydatelst {
+        width: 50%;
+    } */
+
+
+    .section2 {
+        height: 100vh;
+    }
+}
+
+@media(max-width:610px) {
+
+    .sectionfull {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .myimg3 img {
+        width: 26%;
+        height: 185px;
+    }
+
+    .myimg3 {
+        width: 100%;
+        text-align: center;
+      }
+
+}
+@media(max-width:1040px) {
+    .rank_name {
+        width: 10%;
+      }
+}
+@media(max-width:810px){
+    .message {
+        width: 100%;
+        text-align: center;}
+}
+@media(max-width:670px){
+.all_Services{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+}
